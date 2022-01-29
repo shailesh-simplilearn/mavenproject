@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="2040" started-at="2022-01-29T16:29:02 UTC" finished-at="2022-01-29T16:29:04 UTC">
+    <groups>
+    </groups>
+    <test name="SimpleLearnTest" duration-ms="1718" started-at="2022-01-29T16:29:02 UTC" finished-at="2022-01-29T16:29:04 UTC">
+      <class name="com.main.FirstClassInMaven">
+        <test-method status="PASS" signature="testMethod1()[pri:0, instance:com.main.FirstClassInMaven@6e1567f1]" name="testMethod1" duration-ms="1531" started-at="2022-01-29T16:29:02 UTC" finished-at="2022-01-29T16:29:04 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+      </class> <!-- com.main.FirstClassInMaven -->
+    </test> <!-- SimpleLearnTest -->
+    <test name="SimpleLearnTest1" duration-ms="4" started-at="2022-01-29T16:29:04 UTC" finished-at="2022-01-29T16:29:04 UTC">
+      <class name="com.main.SecondClasa">
+        <test-method status="PASS" signature="secondClassMEthod()[pri:0, instance:com.main.SecondClasa@2b2948e2]" name="secondClassMEthod" duration-ms="0" started-at="2022-01-29T16:29:04 UTC" finished-at="2022-01-29T16:29:04 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondClassMEthod -->
+      </class> <!-- com.main.SecondClasa -->
+    </test> <!-- SimpleLearnTest1 -->
+  </suite> <!-- Suite -->
+</testng-results>

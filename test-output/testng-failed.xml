@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.main.MyListeners"/>
+  </listeners>
+  <test thread-count="5" name="SimpleLearnTest(failed)">
+    <classes>
+      <class name="com.main.FirstClassInMaven">
+        <methods>
+          <include name="testMethod3"/>
+          <include name="testMethod2"/>
+        </methods>
+      </class> <!-- com.main.FirstClassInMaven -->
+    </classes>
+  </test> <!-- SimpleLearnTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
