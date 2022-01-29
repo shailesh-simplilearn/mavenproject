@@ -10,10 +10,10 @@
       
     </classes>
   </test> <!-- Test -->
-  <test thread-count="5" name="SimpleLearnTest1">
+ <!--  <test thread-count="5" name="SimpleLearnTest1">
     <classes>
     
       <class name="com.main.SecondClasa" />
     </classes>
-  </test> <!-- Test -->
+  </test> Test -->
 </suite> <!-- Suite -->
